@@ -1,0 +1,4 @@
+#{extends 'main.html'/}
+<div>
+<h3>Bienvenido ${session.get('currentUser')}</h3>
+</div>

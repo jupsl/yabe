@@ -1,0 +1,28 @@
+28 ene 2014 17:00:51,439 INFO  ~ Starting /home/juan/Curso/Proyectos/yabe
+28 ene 2014 17:00:51,461 INFO  ~ Module crud is available (/home/juan/play-1.2.7/modules/crud)
+28 ene 2014 17:00:55,548 WARN  ~ You're running Play! in DEV mode
+28 ene 2014 17:00:56,026 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+28 ene 2014 17:01:32,031 INFO  ~ Connected to jdbc:postgresql://localhost/blog
+28 ene 2014 17:01:36,579 INFO  ~ Application 'yabe' is now started !
+28 ene 2014 17:01:38,982 DEBUG ~ select post0_.id as id2_, post0_.autor_id as autor5_2_, post0_.content as content2_, post0_.postedAt as postedAt2_, post0_.title as title2_ from Post post0_ order by post0_.postedAt desc limit ? offset ?
+28 ene 2014 17:01:39,055 DEBUG ~ select post0_.id as id2_, post0_.autor_id as autor5_2_, post0_.content as content2_, post0_.postedAt as postedAt2_, post0_.title as title2_ from Post post0_ order by post0_.postedAt desc limit ?
+28 ene 2014 17:01:39,540 DEBUG ~ select post0_.id as id2_, post0_.autor_id as autor5_2_, post0_.content as content2_, post0_.postedAt as postedAt2_, post0_.title as title2_ from Post post0_ order by post0_.postedAt desc limit ? offset ?
+28 ene 2014 17:01:39,545 DEBUG ~ select post0_.id as id2_, post0_.autor_id as autor5_2_, post0_.content as content2_, post0_.postedAt as postedAt2_, post0_.title as title2_ from Post post0_ order by post0_.postedAt desc limit ?
+28 ene 2014 17:02:23,606 DEBUG ~ select post0_.id as id2_, post0_.autor_id as autor5_2_, post0_.content as content2_, post0_.postedAt as postedAt2_, post0_.title as title2_ from Post post0_ order by post0_.postedAt desc limit ? offset ?
+28 ene 2014 17:02:23,610 DEBUG ~ select post0_.id as id2_, post0_.autor_id as autor5_2_, post0_.content as content2_, post0_.postedAt as postedAt2_, post0_.title as title2_ from Post post0_ order by post0_.postedAt desc limit ?
+28 ene 2014 17:02:48,404 DEBUG ~ select nextval ('hibernate_sequence')
+28 ene 2014 17:02:48,573 DEBUG ~ insert into Usuarios (email, fullName, isAdmin, password, id) values (?, ?, ?, ?, ?)
+28 ene 2014 17:02:48,713 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from Usuarios user0_ order by user0_.id ASC limit ?
+28 ene 2014 17:02:48,787 DEBUG ~ select count(*) as col_0_0_ from Usuarios user0_ limit ?
+28 ene 2014 17:02:48,791 DEBUG ~ select count(*) as col_0_0_ from Usuarios user0_ limit ?
+28 ene 2014 17:02:55,641 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from Usuarios user0_ where user0_.email=? and user0_.password=? limit ?
+28 ene 2014 17:10:09,429 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from Usuarios user0_ where user0_.email=? and user0_.password=? limit ?
+28 ene 2014 17:13:05,019 DEBUG ~ select user0_.id as id7_, user0_.email as email7_, user0_.fullName as fullName7_, user0_.isAdmin as isAdmin7_, user0_.password as password7_ from Usuarios user0_ where user0_.email=? and user0_.password=? limit ?
+28 ene 2014 17:13:13,388 DEBUG ~ select user0_.id as id7_, user0_.email as email7_, user0_.fullName as fullName7_, user0_.isAdmin as isAdmin7_, user0_.password as password7_ from Usuarios user0_ where user0_.email=? and user0_.password=? limit ?
+28 ene 2014 17:13:18,911 DEBUG ~ select user0_.id as id7_0_, user0_.email as email7_0_, user0_.fullName as fullName7_0_, user0_.isAdmin as isAdmin7_0_, user0_.password as password7_0_ from Usuarios user0_ where user0_.id=?
+28 ene 2014 17:15:38,741 DEBUG ~ select nextval ('hibernate_sequence')
+28 ene 2014 17:15:38,753 DEBUG ~ insert into Usuarios (email, fullName, isAdmin, password, id) values (?, ?, ?, ?, ?)
+28 ene 2014 17:15:38,875 DEBUG ~ select user0_.id as id7_, user0_.email as email7_, user0_.fullName as fullName7_, user0_.isAdmin as isAdmin7_, user0_.password as password7_ from Usuarios user0_ order by user0_.id ASC limit ?
+28 ene 2014 17:15:38,893 DEBUG ~ select count(*) as col_0_0_ from Usuarios user0_ limit ?
+28 ene 2014 17:15:38,897 DEBUG ~ select count(*) as col_0_0_ from Usuarios user0_ limit ?
+28 ene 2014 17:16:36,184 DEBUG ~ select user0_.id as id7_, user0_.email as email7_, user0_.fullName as fullName7_, user0_.isAdmin as isAdmin7_, user0_.password as password7_ from Usuarios user0_ where user0_.email=? and user0_.password=? limit ?
